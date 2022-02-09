@@ -1,25 +1,13 @@
-number:a=int(input("enter a value:"))
-b=int(input("enter b value:"))
-c=a>b
-d=a<b 
-e=a>=b
-f=a<=b
-g=a==b
-h=a!=b
-print(c)
-print(d)
-print(e)
-print(f)
-print(g)
-print(h)
+km=float(input("enter km to convert into cm"))
+cm=km*100000
+print("cm=",cm)
+
 Output:
-enter a value:
-5
-enter b value:
-20
-False
-True
-False
-True
-False
-True
+
+enter km to convert into cm
+
+7 
+
+cm= 700000.0
+
+
